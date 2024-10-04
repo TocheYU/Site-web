@@ -1,0 +1,130 @@
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    /* Permet à l'image d'être positionnée par rapport à l'en-tête */
+    position: relative;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/* Ajout du logo */
+.logo {
+    width: 4%; /* Ajustez la taille de l'image en pourcentage */
+    height: auto;
+    position: fixed; /* Positionnement fixe pour que l'image reste en place */
+    top: 25%; /* Distance depuis le haut en pourcentage */
+    left: 57%; /* Distance depuis la gauche en pourcentage */
+}
+
+
+
+/* Main content */
+main {
+    margin-top: 80px;
+    padding: 2em;
+}
+
+/* Sections */
+section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Cadre pour le titre */
+.cadre-titre {
+    background: #fff;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Cadre pour le contenu */
+.cadre-contenu {
+    background: #fff;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Assurer une bonne lisibilité des paragraphes */
+p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Assurer une bonne lisibilité des listes */
+ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Assurer un bon espacement des éléments de liste */
+li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
